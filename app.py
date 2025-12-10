@@ -1,10 +1,11 @@
-import os
 from flask import Flask, render_template, request
 from pathlib import Path
+import os
 import pandas as pd
 import random
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+from functools import lru_cache
 
 from recommender_core import (
     load_dataset,
@@ -16,12 +17,14 @@ app = Flask(__name__)
 
 # ----------------- CONFIG -----------------
 
-# 🔹 Food recommendation CSV (your existing one)
-DATA_PATH_RECOMMENDER = r"C:/Users/srijam/OneDrive/Desktop/Final Year Project/food_recommendation.csv"
+# Base directory of this app.py file
+BASE_DIR = Path(__file__).resolve().parent
 
-# 🔹 7-days meal generator CSV (from your Streamlit code)
-DATA_PATH_MEAL = Path(
-    r"C:/Users/srijam/OneDrive/Desktop/Final Year Project/7_Days_Meal_Generator.csv")
+# 🔹 Food recommendation CSV (now relative path for Render + local)
+DATA_PATH_RECOMMENDER = BASE_DIR / "food_recommendation.csv"
+
+# 🔹 7-days meal generator CSV (now relative path)
+DATA_PATH_MEAL = BASE_DIR / "7_Days_Meal_Generator.csv"
 
 # Load recommendation dataset once
 df_all = load_dataset(DATA_PATH_RECOMMENDER)
@@ -34,6 +37,7 @@ meal_values = sorted(df_all["meal_type"].replace("", pd.NA).dropna().unique().to
 
 price_min_global = float(df_all["_price_f"].min()) if len(df_all) > 0 else 0.0
 price_max_global = float(df_all["_price_f"].max()) if len(df_all) > 0 else price_min_global + 100.0
+
 
 # ----------------- HOME PAGE -----------------
 
@@ -96,8 +100,8 @@ def recommender():
             foods = []
             for _, row in df_results.iterrows():
                 foods.append({
-                    "Food_Name": row.get("Food_Name", row["food_name"]),
-                    "Food_Image_URL": row.get("Food_Image_URL", row["image_url"]),
+                    "Food_Name": row.get("Food_Name", row.get("food_name", "")),
+                    "Food_Image_URL": row.get("Food_Image_URL", row.get("image_url", "")),
                     "Calories": row.get("Calories", row.get("_calories_f", "")),
                     "Protein": row.get("Protein", row.get("_protein_f", "")),
                     "Fat": row.get("Fat", row.get("_fat_f", "")),
@@ -125,8 +129,6 @@ def recommender():
 
 
 # ----------------- 7 DAYS MEAL PLANNER LOGIC -----------------
-
-from functools import lru_cache
 
 PER_DAY_MEALS = ["Breakfast", "Lunch", "Snack", "Dinner"]
 MEAL_SHARES = {"Breakfast": 0.25, "Lunch": 0.35, "Snack": 0.10, "Dinner": 0.30}
@@ -323,10 +325,10 @@ def meal_plan():
         message=message,
     )
 
-    if __name__ == "__main__":
+
+# ----------------- MAIN ENTRY (Render friendly) -----------------
+
+if __name__ == "__main__":
+    # For local dev, you can still run: python app.py
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
-
-##if __name__ == "__main__":
-  ##  app.run(debug=True)
-
+    app.run(host="0.0.0.0", port=port, debug=True)
