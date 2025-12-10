@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7 Days Meal Plan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <style>
+    body {
+        background: url("https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1920&q=80")
+                    no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    /* NAVBAR (same style family as other pages) */
+    .navbar-custom {
+        background: hsla(0, 0%, 100%, 0.7);
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar-logo {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .navbar-brand-text {
+        font-weight: 700;
+        color: #000000;
+        margin: 0;
+        font-size: 1.05rem;
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .navbar-link {
+        font-weight: 600;
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+        letter-spacing: 0.3px;
+        font-size: 0.95rem;
+    }
+
+    .navbar-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 0;
+        height: 2px;
+        background: #0f5132;
+        transition: width 0.25s ease;
+    }
+
+    .navbar-link:hover {
+        color: #0b3622;
+    }
+
+    .navbar-link:hover::after {
+        width: 100%;
+    }
+
+    /* Main page title */
+    .page-title {
+        color: white;
+        font-size: 2.7rem;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        text-shadow: 0 0 8px rgba(0,0,0,0.7);
+    }
+
+    /* Subtitle under title */
+    .page-subtitle {
+        text-align: center;
+        color: #f3f3f3;
+        font-size: 1.15rem;
+        margin-top: -5px;
+        margin-bottom: 25px;
+        text-shadow: 0 0 4px rgba(0,0,0,0.5);
+    }
+
+    /* Transparent background card */
+    .content-wrapper {
+        background: rgba(255, 255, 255, 0.92);
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 40px rgba(0,0,0,0.35);
+        margin-bottom: 25px;
+    }
+
+    .day-card {
+        border-radius: 14px;
+        border: 1px solid #e5e5e5;
+        padding: 15px;
+        background: #ffffff;
+        margin-bottom: 15px;
+    }
+
+    .meal-title {
+        font-weight: 600;
+    }
+
+    .food-img-small {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    /* Make main container not huge on big screens */
+    .main-container {
+        max-width: 1200px;
+    }
+
+    /* ========== RESPONSIVE TWEAKS ========== */
+
+    /* Medium and below: navbar wraps nicely */
+    @media (max-width: 991.98px) {
+        .navbar-custom {
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .navbar-links {
+            justify-content: flex-start;
+        }
+    }
+
+    /* Small screens: adjust fonts, spacing, background behaviour */
+    @media (max-width: 575.98px) {
+        body {
+            background-attachment: scroll; /* fix mobile background issues */
+        }
+
+        .navbar-custom {
+            padding: 8px 12px;
+        }
+
+        .navbar-logo {
+            height: 32px;
+        }
+
+        .navbar-brand-text {
+            font-size: 0.95rem;
+        }
+
+        .navbar-links {
+            gap: 12px;
+        }
+
+        .page-title {
+            font-size: 1.9rem;
+            margin-top: 14px;
+        }
+
+        .page-subtitle {
+            font-size: 0.95rem;
+            margin-bottom: 18px;
+        }
+
+        .content-wrapper {
+            padding: 18px 14px;
+        }
+
+        .food-img-small {
+            width: 70px;
+            height: 70px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar-custom">
+    <div class="navbar-left">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="navbar-logo">
+        <p class="navbar-brand-text">NutriSmart AI</p>
+    </div>
+    <div class="navbar-links">
+        <a href="{{ url_for('home') }}" class="navbar-link">Home</a>
+        <a href="{{ url_for('home') }}" class="navbar-link">About Us</a>
+        <a href="{{ url_for('recommender') }}" class="navbar-link">Food Recommendation</a>
+        <a href="{{ url_for('meal_plan') }}" class="navbar-link">7 Days Meal Generator</a>
+    </div>
+</div>
+
+<!-- PAGE TITLE -->
+<h1 class="page-title">7 Days Meal Planner</h1>
+<p class="page-subtitle">Generate your personalized weekly meal plan</p>
+
+<div class="container py-2 main-container">
+
+    <!-- FILTER BOX -->
+    <div class="content-wrapper mb-4">
+        <form method="post">
+            <div class="row g-3">
+
+                <!-- Food Type -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Food Type</label>
+                    <select name="food_type" class="form-select">
+                        <option value="">Any</option>
+                        {% for t in food_types %}
+                            <option value="{{ t }}" {% if t==selected_type %}selected{% endif %}>{{ t }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- Gender -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Gender</label>
+                    <select name="gender" class="form-select">
+                        <option value="">Select Gender</option>
+                        <option value="Male" {% if gender=="Male" %}selected{% endif %}>Male</option>
+                        <option value="Female" {% if gender=="Female" %}selected{% endif %}>Female</option>
+                    </select>
+                </div>
+
+                <!-- Calories -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Target Daily Calories</label>
+                    <input type="number"
+                           class="form-control"
+                           name="max_calories"
+                           min="1000"
+                           max="4000"
+                           step="100"
+                           value="{{ max_calories }}">
+                </div>
+
+                <!-- Dislikes -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Dislikes Food Items</label>
+                    <input type="text"
+                           class="form-control"
+                           name="dislikes"
+                           placeholder="egg, fish"
+                           value="{{ dislikes_text }}">
+                </div>
+
+            </div>
+
+            <!-- Centered Use ML -->
+            <div class="d-flex justify-content-center mt-3">
+                <div class="form-check">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           name="use_ml"
+                           id="use_ml"
+                    <label class="form-check-label" for="use_ml">
+                    </label>
+                </div>
+            </div>
+
+            <!-- Centered Generate Button -->
+            <div class="text-center mt-3">
+                <button class="btn btn-success px-5 py-2" style="font-size: 1.1rem;">
+                    Generate
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    {% if message %}
+    <div class="content-wrapper mb-4">
+        <div class="alert alert-warning mb-0">{{ message }}</div>
+    </div>
+    {% endif %}
+
+    {% if plan %}
+    <div class="content-wrapper">
+        <div class="row">
+            {% for day in plan %}
+            <div class="col-12 col-md-6 mb-3">
+                <div class="day-card">
+                    <h4 class="mb-3">
+                        {{ day.Day }} — Total: {{ day.Total_Calories | round(0) }} kcal
+                    </h4>
+
+                    {% for mt, food in day.Meals.items() %}
+                    <div class="d-flex align-items-center mb-2">
+
+                        {% if food and food.Food_Image_URL %}
+                        <img src="{{ url_for('static', filename=food.Food_Image_URL) }}"
+                             class="food-img-small me-3"
+                             alt="{{ food.Food_Name }}">
+                        {% endif %}
+
+                        <div>
+                            <div class="meal-title">
+                                {{ mt }}:
+                                {% if food %}
+                                  {{ food.Food_Name }}
+                                {% else %}
+                                  No suitable item
+                                {% endif %}
+                            </div>
+
+                            {% if food %}
+                                <small>
+                                    {{ food.Calories | int }} cal,
+                                    P: {{ food.Protein | int }}g,
+                                    F: {{ food.Fat | int }}g,
+                                    C: {{ food.Carbs | int }}g
+                                </small><br>
+
+                                {% if food.Cuisine %}
+                                <small>Cuisine: {{ food.Cuisine }}</small>
+                                {% endif %}
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food Recommender</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom Styling -->
+    <style>
+    /* Background image */
+    body {
+        background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1920&q=80")
+                    no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    /* Simple top nav aligned with home page style */
+    .navbar-custom {
+        background: hsla(0, 0%, 100%, 0.7);
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .navbar-logo {
+        height: 40px;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .navbar-brand-text {
+        font-weight: 700;
+        color: #000000;
+        margin: 0;
+        font-size: 1.05rem;
+    }
+
+    .navbar-links {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .navbar-link {
+        font-weight: 600;
+        color: #000000;
+        text-decoration: none;
+        position: relative;
+        letter-spacing: 0.3px;
+        font-size: 0.95rem;
+    }
+
+    .navbar-link::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 0;
+        height: 2px;
+        background: #0f5132;
+        transition: width 0.25s ease;
+    }
+
+    .navbar-link:hover {
+        color: #0b3622;
+    }
+
+    .navbar-link:hover::after {
+        width: 100%;
+    }
+
+    /* Main content wrapper */
+    .content-wrapper {
+        background: rgba(255, 255, 255, 0.88);
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 40px rgba(0,0,0,0.3);
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    /* Make main container not too wide on big screens */
+    .main-container {
+        max-width: 1200px;
+    }
+
+    /* Top nav / header inside card */
+    .custom-nav {
+        background: rgba(0, 0, 0, 0.65);
+        padding: 12px;
+        border-radius: 12px;
+        margin-bottom: 25px;
+    }
+    .nav-title {
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+
+    /* Cards */
+    .food-card {
+        border-radius: 15px !important;
+        border: 2px solid #f1f1f1;
+        overflow: hidden;
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+        background: white;
+    }
+    .food-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    /* Images */
+    .card-img-top {
+        width: 100%;
+        height: 260px;
+        object-fit: cover;
+        border-bottom: 3px solid #eee;
+        display: block;
+    }
+
+    /* Rating stars */
+    .rating-stars {
+        color: #ffc107;
+        cursor: pointer;
+    }
+    .rating-stars i {
+        margin-right: 2px;
+        font-size: 1.1rem;
+    }
+    .rating-stars i.inactive {
+        color: #ddd;
+    }
+
+    /* Like / favorite buttons */
+    .like-btn, .fav-btn {
+        font-size: 0.85rem;
+    }
+
+    /* Loader overlay */
+    .loader-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.55);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    /* ============= RESPONSIVE TWEAKS ============= */
+
+    /* Medium and below: navbar wraps nicely */
+    @media (max-width: 991.98px) {
+        .navbar-custom {
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+        .navbar-links {
+            justify-content: flex-start;
+        }
+    }
+
+    /* Small screens: adjust background, spacing, font sizes, card images */
+    @media (max-width: 575.98px) {
+        body {
+            background-attachment: scroll; /* fix mobile jump issue */
+        }
+
+        .navbar-custom {
+            padding: 8px 12px;
+        }
+
+        .navbar-logo {
+            height: 32px;
+        }
+
+        .navbar-brand-text {
+            font-size: 0.95rem;
+        }
+
+        .navbar-links {
+            gap: 12px;
+        }
+
+        .nav-title {
+            font-size: 1.3rem;
+        }
+
+        .content-wrapper {
+            padding: 18px 14px;
+            margin-top: 20px;
+        }
+
+        .card-img-top {
+            height: 200px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+<!-- Loader (hidden by default) -->
+<div id="loader-overlay" class="loader-overlay d-none">
+    <div class="spinner-border text-light" role="status" style="width:3rem;height:3rem;">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+</div>
+
+<!-- TOP NAVBAR (consistent with home page) -->
+<div class="navbar-custom">
+    <div class="navbar-left">
+        <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo" class="navbar-logo">
+        <p class="navbar-brand-text">NutriSmart AI</p>
+    </div>
+    <div class="navbar-links">
+        <a href="{{ url_for('home') }}" class="navbar-link">Home</a>
+        <a href="{{ url_for('home') }}" class="navbar-link">About Us</a>
+        <a href="{{ url_for('recommender') }}" class="navbar-link">Food Recommendation</a>
+        <a href="{{ url_for('meal_plan') }}" class="navbar-link">7 Days Meal Generator</a>
+    </div>
+</div>
+
+<div class="container py-4 main-container">
+
+    <!-- Header -->
+    <div class="custom-nav text-center mb-4">
+        <span class="nav-title">🍽️ Smart Food Recommendation System 🍽️</span>
+    </div>
+
+    <div class="content-wrapper">
+
+        <!-- FILTER FORM -->
+        <form method="post" class="mb-5" onsubmit="showLoader()">
+            <div class="row g-4">
+
+                <!-- Type -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Food Type</label>
+                    <select name="food_type" class="form-select">
+                        {% for t in type_options %}
+                            <option value="{{ t }}" {% if t==selected_type %}selected{% endif %}>{{ t }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- Meal Types -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Meal Types</label>
+                    {% for meal in meal_values %}
+                    <div class="form-check">
+                        <input class="form-check-input"
+                               type="checkbox"
+                               name="meal_type"
+                               value="{{ meal }}"
+                               {% if meal in selected_meals %}checked{% endif %}>
+                        <label class="form-check-label">{{ meal }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <!-- Price Range -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Min Price</label>
+                    <input type="number" class="form-control" name="price_min" value="{{ price_min }}">
+
+                    <label class="form-label mt-2">Max Price</label>
+                    <input type="number" class="form-control" name="price_max" value="{{ price_max }}">
+                </div>
+
+                <!-- Dislikes / Extra Info -->
+                <div class="col-12 col-md-3">
+                    <label class="form-label">Dislikes Food</label>
+                    <input type="text" class="form-control" name="dislikes" value="{{ dislikes_text }}">
+
+                    <label class="form-label mt-2">Customized Information</label>
+                    <input type="text" class="form-control" name="extra_info" value="{{ extra_info }}">
+
+                    <label class="form-label mt-2">Food Item Show</label>
+                    <input type="number" class="form-control" name="top_k" value="{{ top_k }}">
+                </div>
+            </div>
+
+            <button class="btn btn-primary mt-3">
+                🔍 Get Recommendations
+            </button>
+        </form>
+
+        {% if message %}
+        <div class="alert alert-warning">{{ message }}</div>
+        {% endif %}
+
+        <!-- RESULT GRID -->
+        <div class="row g-4">
+            {% for f in foods %}
+            <div class="col-12 col-sm-6 col-lg-4">
+                <div class="card food-card h-100">
+
+                    {% if f.Food_Image_URL %}
+                    <img src="{{ url_for('static', filename=f.Food_Image_URL) }}"
+                         class="card-img-top"
+                         alt="{{ f.Food_Name }}">
+                    {% endif %}
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">{{ f.Food_Name }}</h5>
+
+                        <p><strong>Calories:</strong> {{ f.Calories }} |
+                           <strong>Protein:</strong> {{ f.Protein }} g</p>
+
+                        <p><strong>Fat:</strong> {{ f.Fat }} g |
+                           <strong>Carbs:</strong> {{ f.Carbs }} g</p>
+
+                        <p><strong>Price:</strong> ₹{{ f.Price }}</p>
+                        <p><strong>Cuisine:</strong> {{ f.Cuisine }}</p>
+
+                        <!-- Rating stars -->
+                        <div class="rating-stars mt-2" data-food="{{ f.Food_Name }}">
+                            <i class="fa-star fa-solid inactive"  data-value="1"></i>
+                            <i class="fa-star fa-solid inactive"  data-value="2"></i>
+                            <i class="fa-star fa-solid inactive"  data-value="3"></i>
+                            <i class="fa-star fa-solid inactive"  data-value="4"></i>
+                            <i class="fa-star fa-solid inactive"  data-value="5"></i>
+                        </div>
+
+                        <!-- Like / Favorite buttons -->
+                        <div class="d-flex justify-content-between align-items-center mt-3">
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-danger like-btn"
+                                    data-food="{{ f.Food_Name }}">
+                                <i class="fa-regular fa-heart me-1"></i> Like
+                            </button>
+
+                            <button type="button"
+                                    class="btn btn-sm btn-outline-warning fav-btn"
+                                    data-food="{{ f.Food_Name }}">
+                                <i class="fa-regular fa-bookmark me-1"></i> Save
+                            </button>
+                        </div>
+
+                        {% if extra_info %}
+                        <div class="alert alert-info mt-3 mb-0">
+                            Note: {{ extra_info }}
+                        </div>
+                        {% endif %}
+                    </div>
+
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>
+
+<!-- JS for loader, rating, like/favorite -->
+<script>
+function showLoader() {
+    const overlay = document.getElementById('loader-overlay');
+    if (overlay) {
+        overlay.classList.remove('d-none');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // --- Rating stars ---
+    const ratingBlocks = document.querySelectorAll('.rating-stars');
+    ratingBlocks.forEach(block => {
+        const foodName = block.getAttribute('data-food');
+        const stars = block.querySelectorAll('i');
+        const savedRating = localStorage.getItem('rating_' + foodName);
+
+        function setRating(rating) {
+            stars.forEach(star => {
+                const val = parseInt(star.getAttribute('data-value'));
+                if (val <= rating) {
+                    star.classList.remove('inactive');
+                } else {
+                    star.classList.add('inactive');
+                }
+            });
+        }
+
+        if (savedRating) {
+            setRating(parseInt(savedRating));
+        }
+
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                const rating = parseInt(star.getAttribute('data-value'));
+                localStorage.setItem('rating_' + foodName, rating);
+                setRating(rating);
+            });
+        });
+    });
+
+    // --- Like & Favorite buttons ---
+    document.querySelectorAll('.like-btn').forEach(btn => {
+        const foodName = btn.getAttribute('data-food');
+        const icon = btn.querySelector('i');
+        const key = 'like_' + foodName;
+        const saved = localStorage.getItem(key) === '1';
+
+        function updateBtn(state) {
+            if (state) {
+                btn.classList.remove('btn-outline-danger');
+                btn.classList.add('btn-danger');
+                icon.classList.remove('fa-regular');
+                icon.classList.add('fa-solid');
+            } else {
+                btn.classList.add('btn-outline-danger');
+                btn.classList.remove('btn-danger');
+                icon.classList.add('fa-regular');
+                icon.classList.remove('fa-solid');
+            }
+        }
+
+        updateBtn(saved);
+
+        btn.addEventListener('click', () => {
+            const newState = !(localStorage.getItem(key) === '1');
+            localStorage.setItem(key, newState ? '1' : '0');
+            updateBtn(newState);
+        });
+    });
+
+    document.querySelectorAll('.fav-btn').forEach(btn => {
+        const foodName = btn.getAttribute('data-food');
+        const icon = btn.querySelector('i');
+        const key = 'fav_' + foodName;
+        const saved = localStorage.getItem(key) === '1';
+
+        function updateBtn(state) {
+            if (state) {
+                btn.classList.remove('btn-outline-warning');
+                btn.classList.add('btn-warning');
+                icon.classList.remove('fa-regular');
+                icon.classList.add('fa-solid');
+            } else {
+                btn.classList.add('btn-outline-warning');
+                btn.classList.remove('btn-warning');
+                icon.classList.add('fa-regular');
+                icon.classList.remove('fa-solid');
+            }
+        }
+
+        updateBtn(saved);
+
+        btn.addEventListener('click', () => {
+            const newState = !(localStorage.getItem(key) === '1');
+            localStorage.setItem(key, newState ? '1' : '0');
+            updateBtn(newState);
+        });
+    });
+});
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
