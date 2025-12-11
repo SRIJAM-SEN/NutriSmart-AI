@@ -7,6 +7,3 @@ scipy==1.11.3
 python-dotenv==1.0.0
 pillow==10.1.0
 scikit-image==0.21.0
-git add runtime.txt
-git commit -m "Use Python 3.12 to ensure pandas binary wheels available"
-git push origin main
