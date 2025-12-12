@@ -1,8 +1,5 @@
 # NutriSmart-AI
 
-Here is a **GitHub-ready README.md** for your project, created fully from your synopsis  — with **emojis**, clean structure, and professional formatting.
-If you want badges, screenshots, or installation steps, I can add those too!
-
 ---
 
 # 🍽️ Customized Healthy Meal Planner & Food Recommendation System
