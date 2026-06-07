@@ -409,37 +409,6 @@ Add Screenshot Here
 
 ---
 
-## 👨‍💻 Team Members
-
-### Project Team
-
-- Srijam Sen
-- Atrika Majumdar
-- Srijita Manna
-- Pratik Das
-
-### Project Supervisor
-
-Prof. Taniya Purkait
-
-Department of Information Technology
-
-College of Engineering and Management, Kolaghat
-
----
-
-## 🎓 Academic Information
-
-**Project Title:** NutriSmart AI – Smart Food Recommendation System & 7-Day Meal Planner
-
-**Degree:** Bachelor of Technology (B.Tech)
-
-**Department:** Information Technology
-
-**Academic Session:** 2025 – 2026
-
----
-
 ## 🤝 Contribution
 
 Contributions, suggestions, and improvements are welcome.
