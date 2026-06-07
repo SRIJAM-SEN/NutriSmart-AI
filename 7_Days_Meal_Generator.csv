@@ -1,0 +1,2001 @@
+Food_ID,Food_Name,Cuisine,Type,Calories,Protein,Fat,Carbs,Meal_Type,Price
+1,Vegan Energy Balls,Mediterranean,Vegan,364,29.1,6.0,76.8,Snack,64
+2,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,146
+3,Hummus with Veggies,Thai,Vegan,245,8.4,18.9,59.5,Snack,61
+4,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,109
+5,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,83
+6,Fruit Salad,Mexican,Vegan,611,30.7,21.6,29.5,Snack,163
+7,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,162
+8,Vegan Smoothie,Thai,Vegan,505,10.0,15.8,44.0,Snack,193
+9,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,170
+10,Avocado Toast,Indian,Vegan,483,17.2,4.9,16.4,Snack,125
+11,Coconut Yogurt,Indian,Vegan,675,39.2,25.4,26.5,Snack,92
+12,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,197
+13,Granola,Italian,Vegan,255,31.4,19.6,11.7,Snack,79
+14,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,186
+15,Chia Pudding,Chinese,Vegan,346,37.4,11.2,36.7,Snack,85
+16,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,247
+17,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,230
+18,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,278
+19,Grilled Veggie Sandwich,Italian,Vegan,278,32.0,28.0,44.9,Lunch,246
+20,Lentil Soup,Continental,Vegan,397,39.6,17.7,36.2,Lunch,203
+21,Falafel with Hummus,Continental,Vegan,364,32.0,17.7,27.0,Lunch,224
+22,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,211
+23,Vegan Pasta,Mexican,Vegan,634,6.4,21.6,45.4,Lunch,346
+24,Veggie Stir Fry,Chinese,Vegan,692,34.6,22.5,35.9,Lunch,333
+25,Tofu Salad,Chinese,Vegan,463,20.2,13.9,29.9,Lunch,253
+26,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,235
+27,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,289
+28,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,300
+29,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,245
+30,Chickpea Curry,Mexican,Vegan,391,10.9,13.7,15.2,Lunch,224
+31,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,203
+32,Tofu Stir Fry,Thai,Vegan,151,33.0,23.4,39.9,Dinner,234
+33,Vegan Burger,Continental,Vegan,633,11.7,25.9,49.2,Dinner,307
+34,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,246
+35,Stuffed Eggplant,Continental,Vegan,403,19.8,5.3,41.1,Dinner,279
+36,Vegan Tacos,Mediterranean,Vegan,460,11.5,18.2,77.2,Dinner,287
+37,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,238
+38,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,343
+39,Vegan Paella,Mediterranean,Vegan,527,16.8,22.1,39.7,Dinner,282
+40,Thai Green Curry,Indian,Vegan,504,18.1,28.6,61.2,Dinner,252
+41,Vegan Shepherd’s Pie,Chinese,Vegan,471,20.0,13.1,55.8,Dinner,252
+42,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,200
+43,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,245
+44,Vegan Stew,Chinese,Vegan,334,39.2,26.0,55.9,Dinner,227
+45,Jackfruit Curry,Italian,Vegan,236,5.5,29.3,61.8,Dinner,227
+46,Vegan Pancakes,Thai,Vegan,157,5.5,5.1,70.6,Breakfast,174
+47,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,199
+48,Vegan Smoothie Bowl,Chinese,Vegan,261,16.9,9.0,54.3,Breakfast,168
+49,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,172
+50,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,121
+51,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,115
+52,Vegan Scramble,Mediterranean,Vegan,223,24.7,23.8,54.9,Breakfast,189
+53,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,196
+54,Granola with Almond Milk,Chinese,Vegan,619,39.8,21.1,62.5,Breakfast,152
+55,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,139
+56,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,141
+57,Vegan Muffins,Continental,Vegan,187,11.7,13.0,77.2,Breakfast,103
+58,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,100
+59,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,124
+60,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,111
+61,Paneer Tikka,Italian,Veg,670,31.5,5.0,15.5,Snack,178
+62,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,139
+63,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,73
+64,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,83
+65,Veg Cutlet,Thai,Veg,269,19.8,11.1,76.6,Snack,80
+66,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,99
+67,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,166
+68,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,85
+69,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,193
+70,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,134
+71,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,161
+72,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,83
+73,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,147
+74,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,139
+75,Idli with Chutney,Indian,Veg,168,15.7,21.8,47.9,Snack,153
+76,Paneer Butter Masala,Mexican,Veg,254,7.2,3.0,52.1,Lunch,208
+77,Dal Fry with Rice,Chinese,Veg,376,30.9,22.7,62.5,Lunch,233
+78,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,226
+79,Vegetable Pulao,Chinese,Veg,250,7.3,9.8,59.1,Lunch,216
+80,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,222
+81,Palak Paneer,Continental,Veg,307,20.5,25.6,55.9,Lunch,232
+82,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,229
+83,Veg Thali,Continental,Veg,647,38.3,14.9,40.2,Lunch,319
+84,Aloo Paratha,Thai,Veg,677,21.8,13.3,13.5,Lunch,315
+85,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,224
+86,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,249
+87,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,307
+88,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,240
+89,Bhindi Masala,Continental,Veg,360,9.7,20.6,44.9,Lunch,228
+90,Mix Veg Curry,Indian,Veg,220,18.2,13.3,75.3,Lunch,239
+91,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,332
+92,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,247
+93,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,253
+94,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,200
+95,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,263
+96,Stuffed Paratha,Chinese,Veg,544,35.9,15.2,56.9,Dinner,274
+97,Matar Paneer,Indian,Veg,412,6.1,9.6,61.5,Dinner,253
+98,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,250
+99,Vegetable Pulao,Mediterranean,Veg,564,39.3,15.4,49.2,Dinner,269
+100,Dal Tadka with Roti,Chinese,Veg,324,17.9,2.7,65.6,Dinner,228
+101,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,230
+102,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,300
+103,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,201
+104,Baingan Bharta,Italian,Veg,612,5.9,29.7,60.3,Dinner,301
+105,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,283
+106,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,157
+107,Upma,Thai,Veg,470,12.0,21.2,34.0,Breakfast,132
+108,Aloo Paratha,Mexican,Veg,341,34.2,14.1,37.4,Breakfast,120
+109,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,117
+110,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,174
+111,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,200
+112,Chole Kulche,Mediterranean,Veg,510,12.0,14.9,18.1,Breakfast,144
+113,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,101
+114,Thepla,Indian,Veg,193,10.3,8.5,19.4,Breakfast,176
+115,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,118
+116,Besan Chilla,Mexican,Veg,192,17.2,3.0,47.1,Breakfast,179
+117,Stuffed Paratha,Continental,Veg,481,5.9,10.9,62.3,Breakfast,151
+118,Onion Dosa,Chinese,Veg,500,8.1,7.7,16.6,Breakfast,124
+119,Poori Sabzi,Italian,Veg,204,14.6,7.1,49.1,Breakfast,116
+120,Paneer Paratha,Mexican,Veg,286,39.5,28.0,31.1,Breakfast,150
+121,Chicken Tikka,Chinese,Non-Veg,202,10.0,16.7,41.3,Snack,107
+122,Egg Roll,Thai,Non-Veg,472,20.6,7.4,73.6,Snack,74
+123,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,186
+124,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,100
+125,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,182
+126,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,54
+127,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,85
+128,Chicken Momos,Thai,Non-Veg,452,30.9,2.1,61.7,Snack,100
+129,Chicken Wings,Thai,Non-Veg,458,34.5,22.0,65.7,Snack,66
+130,Fish Cutlet,Mexican,Non-Veg,269,9.1,16.4,76.3,Snack,178
+131,Chicken Popcorn,Continental,Non-Veg,633,38.4,12.6,52.2,Snack,168
+132,Chicken Shawarma,Mexican,Non-Veg,506,23.0,11.0,74.0,Snack,79
+133,Egg Bhurji,Italian,Non-Veg,238,32.0,17.2,16.7,Snack,63
+134,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,119
+135,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,141
+136,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,232
+137,Chicken Biryani,Continental,Non-Veg,342,14.0,7.2,16.4,Lunch,222
+138,Egg Curry with Rice,Continental,Non-Veg,216,19.6,15.2,26.6,Lunch,247
+139,Mutton Curry,Italian,Non-Veg,189,15.5,22.5,49.8,Lunch,250
+140,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,282
+141,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,330
+142,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,276
+143,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,342
+144,Egg Biryani,Mexican,Non-Veg,698,12.8,29.9,30.9,Lunch,334
+145,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,263
+146,Fish Thali,Continental,Non-Veg,245,7.1,12.8,54.7,Lunch,204
+147,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,236
+148,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,305
+149,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,314
+150,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,230
+151,Grilled Chicken,Mexican,Non-Veg,436,35.4,5.7,67.4,Dinner,251
+152,Chicken Curry,Mexican,Non-Veg,322,7.7,23.7,52.3,Dinner,207
+153,Egg Masala,Italian,Non-Veg,191,8.8,12.7,12.3,Dinner,229
+154,Mutton Stew,Indian,Non-Veg,588,30.2,12.2,59.8,Dinner,259
+155,Fish Fry with Rice,Indian,Non-Veg,178,15.5,12.3,79.9,Dinner,213
+156,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,348
+157,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,243
+158,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,235
+159,Chicken Do Pyaza,Chinese,Non-Veg,613,38.9,17.6,25.9,Dinner,300
+160,Fish Masala,Continental,Non-Veg,297,36.4,25.5,68.6,Dinner,222
+161,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,295
+162,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,288
+163,Egg Fried Rice,Chinese,Non-Veg,550,36.9,5.9,54.0,Dinner,251
+164,Fish Curry Thali,Mexican,Non-Veg,672,18.8,28.7,36.3,Dinner,339
+165,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,327
+166,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,140
+167,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,127
+168,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,123
+169,Scrambled Eggs,Mediterranean,Non-Veg,206,13.6,10.6,33.8,Breakfast,144
+170,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,199
+171,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,184
+172,Bacon and Eggs,Thai,Non-Veg,581,16.3,12.9,72.6,Breakfast,198
+173,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,180
+174,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,107
+175,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,193
+176,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,182
+177,Egg Toast,Italian,Non-Veg,238,12.1,25.0,43.5,Breakfast,145
+178,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,183
+179,Egg Roll,Chinese,Non-Veg,659,35.4,18.5,27.9,Breakfast,122
+180,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,113
+181,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,192
+182,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,115
+183,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,307
+184,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,133
+185,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,107
+186,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,163
+187,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,189
+188,Bacon and Eggs,Thai,Non-Veg,581,16.3,12.9,72.6,Breakfast,151
+189,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,219
+190,Chicken Do Pyaza,Chinese,Non-Veg,613,38.9,17.6,25.9,Dinner,312
+191,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,247
+192,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,281
+193,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,270
+194,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,179
+195,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,213
+196,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,217
+197,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,100
+198,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,107
+199,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,251
+200,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,98
+201,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,183
+202,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,175
+203,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,82
+204,Hummus with Veggies,Thai,Vegan,245,8.4,18.9,59.5,Snack,155
+205,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,219
+206,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,218
+207,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,102
+208,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,191
+209,Vegan Smoothie,Thai,Vegan,505,10.0,15.8,44.0,Snack,77
+210,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,76
+211,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,191
+212,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,320
+213,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,205
+214,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,121
+215,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,286
+216,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,212
+217,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,178
+218,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,297
+219,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,110
+220,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,310
+221,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,146
+222,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,240
+223,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,236
+224,Besan Chilla,Mexican,Veg,192,17.2,3.0,47.1,Breakfast,135
+225,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,88
+226,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,135
+227,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,152
+228,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,160
+229,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,160
+230,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,207
+231,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,134
+232,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,165
+233,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,260
+234,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,200
+235,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,198
+236,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,152
+237,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,176
+238,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,114
+239,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,86
+240,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,180
+241,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,309
+242,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,200
+243,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,182
+244,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,296
+245,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,161
+246,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,318
+247,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,221
+248,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,290
+249,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,169
+250,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,120
+251,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,76
+252,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,236
+253,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,170
+254,Upma,Thai,Veg,470,12.0,21.2,34.0,Breakfast,148
+255,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,131
+256,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,307
+257,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,96
+258,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,285
+259,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,94
+260,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,161
+261,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,222
+262,Egg Masala,Italian,Non-Veg,191,8.8,12.7,12.3,Dinner,250
+263,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,129
+264,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,131
+265,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,302
+266,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,198
+267,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,182
+268,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,138
+269,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,195
+270,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,183
+271,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,308
+272,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,93
+273,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,175
+274,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,58
+275,Vegan Energy Balls,Mediterranean,Vegan,364,29.1,6.0,76.8,Snack,157
+276,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,183
+277,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,334
+278,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,104
+279,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,64
+280,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,295
+281,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,180
+282,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,215
+283,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,183
+284,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,287
+285,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,214
+286,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,206
+287,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,251
+288,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,73
+289,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,337
+290,Granola,Italian,Vegan,255,31.4,19.6,11.7,Snack,132
+291,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,163
+292,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,262
+293,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,250
+294,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,328
+295,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,278
+296,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,204
+297,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,261
+298,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,189
+299,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,87
+300,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,145
+301,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,236
+302,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,345
+303,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,152
+304,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,238
+305,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,158
+306,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,225
+307,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,211
+308,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,268
+309,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,239
+310,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,163
+311,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,219
+312,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,300
+313,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,240
+314,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,143
+315,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,105
+316,Thai Green Curry,Indian,Vegan,504,18.1,28.6,61.2,Dinner,262
+317,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,250
+318,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,220
+319,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,117
+320,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,237
+321,Avocado Toast,Indian,Vegan,483,17.2,4.9,16.4,Snack,74
+322,Chicken Do Pyaza,Chinese,Non-Veg,613,38.9,17.6,25.9,Dinner,346
+323,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,231
+324,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,270
+325,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,296
+326,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,208
+327,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,126
+328,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,248
+329,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,173
+330,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,150
+331,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,223
+332,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,133
+333,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,207
+334,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,147
+335,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,219
+336,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,162
+337,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,324
+338,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,102
+339,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,132
+340,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,262
+341,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,70
+342,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,337
+343,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,306
+344,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,266
+345,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,225
+346,Fish Curry Thali,Mexican,Non-Veg,672,18.8,28.7,36.3,Dinner,343
+347,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,300
+348,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,228
+349,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,144
+350,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,213
+351,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,269
+352,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,72
+353,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,332
+354,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,339
+355,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,307
+356,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,206
+357,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,111
+358,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,205
+359,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,94
+360,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,84
+361,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,247
+362,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,162
+363,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,136
+364,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,156
+365,Aloo Paratha,Mexican,Veg,341,34.2,14.1,37.4,Breakfast,180
+366,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,56
+367,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,211
+368,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,174
+369,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,223
+370,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,228
+371,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,227
+372,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,313
+373,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,199
+374,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,245
+375,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,248
+376,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,262
+377,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,158
+378,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,271
+379,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,226
+380,Chicken Wings,Thai,Non-Veg,458,34.5,22.0,65.7,Snack,194
+381,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,184
+382,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,189
+383,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,269
+384,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,213
+385,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,137
+386,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,177
+387,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,189
+388,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,213
+389,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,102
+390,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,207
+391,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,142
+392,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,165
+393,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,89
+394,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,330
+395,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,244
+396,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,172
+397,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,160
+398,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,233
+399,Stuffed Eggplant,Continental,Vegan,403,19.8,5.3,41.1,Dinner,268
+400,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,202
+401,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,196
+402,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,105
+403,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,165
+404,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,114
+405,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,243
+406,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,115
+407,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,192
+408,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,154
+409,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,300
+410,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,272
+411,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,160
+412,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,128
+413,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,170
+414,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,204
+415,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,168
+416,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,233
+417,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,217
+418,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,255
+419,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,84
+420,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,248
+421,Matar Paneer,Indian,Veg,412,6.1,9.6,61.5,Dinner,274
+422,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,157
+423,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,228
+424,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,75
+425,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,280
+426,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,233
+427,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,212
+428,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,68
+429,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,60
+430,Fish Masala,Continental,Non-Veg,297,36.4,25.5,68.6,Dinner,211
+431,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,239
+432,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,258
+433,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,138
+434,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,208
+435,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,139
+436,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,152
+437,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,126
+438,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,115
+439,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,304
+440,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,194
+441,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,185
+442,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,223
+443,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,196
+444,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,330
+445,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,110
+446,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,248
+447,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,141
+448,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,112
+449,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,188
+450,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,149
+451,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,236
+452,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,109
+453,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,242
+454,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,225
+455,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,241
+456,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,105
+457,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,56
+458,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,250
+459,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,87
+460,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,265
+461,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,72
+462,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,249
+463,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,142
+464,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,305
+465,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,186
+466,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,129
+467,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,112
+468,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,224
+469,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,140
+470,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,157
+471,Falafel with Hummus,Continental,Vegan,364,32.0,17.7,27.0,Lunch,234
+472,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,301
+473,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,255
+474,Veg Cutlet,Thai,Veg,269,19.8,11.1,76.6,Snack,77
+475,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,194
+476,Egg Roll,Thai,Non-Veg,472,20.6,7.4,73.6,Snack,145
+477,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,220
+478,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,210
+479,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,124
+480,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,159
+481,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,172
+482,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,158
+483,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,274
+484,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,268
+485,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,341
+486,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,181
+487,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,299
+488,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,146
+489,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,186
+490,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,160
+491,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,189
+492,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,260
+493,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,131
+494,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,170
+495,Paneer Tikka,Italian,Veg,670,31.5,5.0,15.5,Snack,127
+496,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,225
+497,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,159
+498,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,277
+499,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,183
+500,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,220
+501,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,140
+502,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,210
+503,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,75
+504,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,141
+505,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,216
+506,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,207
+507,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,164
+508,Egg Masala,Italian,Non-Veg,191,8.8,12.7,12.3,Dinner,208
+509,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,122
+510,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,186
+511,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,230
+512,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,125
+513,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,111
+514,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,235
+515,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,201
+516,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,329
+517,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,208
+518,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,198
+519,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,118
+520,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,226
+521,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,316
+522,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,331
+523,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,161
+524,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,225
+525,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,127
+526,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,159
+527,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,108
+528,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,178
+529,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,267
+530,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,266
+531,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,186
+532,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,262
+533,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,204
+534,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,128
+535,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,73
+536,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,220
+537,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,75
+538,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,231
+539,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,196
+540,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,243
+541,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,165
+542,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,181
+543,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,169
+544,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,101
+545,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,200
+546,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,117
+547,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,118
+548,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,88
+549,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,343
+550,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,138
+551,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,250
+552,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,338
+553,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,150
+554,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,288
+555,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,158
+556,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,244
+557,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,270
+558,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,147
+559,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,126
+560,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,309
+561,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,232
+562,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,154
+563,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,216
+564,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,119
+565,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,263
+566,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,119
+567,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,272
+568,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,141
+569,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,220
+570,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,106
+571,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,315
+572,Lentil Soup,Continental,Vegan,397,39.6,17.7,36.2,Lunch,226
+573,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,183
+574,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,109
+575,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,122
+576,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,228
+577,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,222
+578,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,318
+579,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,81
+580,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,116
+581,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,259
+582,Granola with Almond Milk,Chinese,Vegan,619,39.8,21.1,62.5,Breakfast,152
+583,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,195
+584,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,95
+585,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,331
+586,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,251
+587,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,280
+588,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,205
+589,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,308
+590,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,350
+591,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,243
+592,Chicken Popcorn,Continental,Non-Veg,633,38.4,12.6,52.2,Snack,119
+593,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,302
+594,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,199
+595,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,274
+596,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,156
+597,Vegan Muffins,Continental,Vegan,187,11.7,13.0,77.2,Breakfast,132
+598,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,65
+599,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,235
+600,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,77
+601,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,280
+602,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,262
+603,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,313
+604,Vegan Burger,Continental,Vegan,633,11.7,25.9,49.2,Dinner,325
+605,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,214
+606,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,57
+607,Idli with Chutney,Indian,Veg,168,15.7,21.8,47.9,Snack,99
+608,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,157
+609,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,181
+610,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,213
+611,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,58
+612,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,142
+613,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,179
+614,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,197
+615,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,66
+616,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,127
+617,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,198
+618,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,301
+619,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,115
+620,Vegan Pasta,Mexican,Vegan,634,6.4,21.6,45.4,Lunch,344
+621,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,246
+622,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,123
+623,Besan Chilla,Mexican,Veg,192,17.2,3.0,47.1,Breakfast,100
+624,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,260
+625,Dal Fry with Rice,Chinese,Veg,376,30.9,22.7,62.5,Lunch,207
+626,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,245
+627,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,233
+628,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,211
+629,Egg Masala,Italian,Non-Veg,191,8.8,12.7,12.3,Dinner,220
+630,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,182
+631,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,212
+632,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,126
+633,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,134
+634,Vegan Burger,Continental,Vegan,633,11.7,25.9,49.2,Dinner,319
+635,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,243
+636,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,210
+637,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,129
+638,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,185
+639,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,195
+640,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,200
+641,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,163
+642,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,110
+643,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,283
+644,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,240
+645,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,133
+646,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,210
+647,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,251
+648,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,149
+649,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,141
+650,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,245
+651,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,101
+652,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,288
+653,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,118
+654,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,159
+655,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,193
+656,Chicken Do Pyaza,Chinese,Non-Veg,613,38.9,17.6,25.9,Dinner,309
+657,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,341
+658,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,300
+659,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,276
+660,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,227
+661,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,101
+662,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,140
+663,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,221
+664,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,118
+665,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,285
+666,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,233
+667,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,247
+668,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,247
+669,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,299
+670,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,67
+671,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,165
+672,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,308
+673,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,305
+674,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,183
+675,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,178
+676,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,264
+677,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,154
+678,Fish Masala,Continental,Non-Veg,297,36.4,25.5,68.6,Dinner,240
+679,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,110
+680,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,205
+681,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,85
+682,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,344
+683,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,100
+684,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,116
+685,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,105
+686,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,284
+687,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,252
+688,Chicken Tikka,Chinese,Non-Veg,202,10.0,16.7,41.3,Snack,63
+689,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,241
+690,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,98
+691,Egg Fried Rice,Chinese,Non-Veg,550,36.9,5.9,54.0,Dinner,256
+692,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,82
+693,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,164
+694,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,233
+695,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,255
+696,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,154
+697,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,214
+698,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,68
+699,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,285
+700,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,86
+701,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,158
+702,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,178
+703,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,85
+704,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,349
+705,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,208
+706,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,163
+707,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,177
+708,Avocado Toast,Indian,Vegan,483,17.2,4.9,16.4,Snack,89
+709,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,100
+710,Vegan Shepherd’s Pie,Chinese,Vegan,471,20.0,13.1,55.8,Dinner,267
+711,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,68
+712,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,135
+713,Scrambled Eggs,Mediterranean,Non-Veg,206,13.6,10.6,33.8,Breakfast,153
+714,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,147
+715,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,65
+716,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,283
+717,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,124
+718,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,242
+719,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,299
+720,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,123
+721,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,283
+722,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,161
+723,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,249
+724,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,300
+725,Stuffed Paratha,Chinese,Veg,544,35.9,15.2,56.9,Dinner,257
+726,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,199
+727,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,159
+728,Matar Paneer,Indian,Veg,412,6.1,9.6,61.5,Dinner,273
+729,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,235
+730,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,276
+731,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,189
+732,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,105
+733,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,144
+734,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,284
+735,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,227
+736,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,327
+737,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,76
+738,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,325
+739,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,167
+740,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,101
+741,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,235
+742,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,265
+743,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,134
+744,Vegan Muffins,Continental,Vegan,187,11.7,13.0,77.2,Breakfast,196
+745,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,227
+746,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,138
+747,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,85
+748,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,168
+749,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,174
+750,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,243
+751,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,100
+752,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,137
+753,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,255
+754,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,178
+755,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,134
+756,Paneer Tikka,Italian,Veg,670,31.5,5.0,15.5,Snack,137
+757,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,315
+758,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,187
+759,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,173
+760,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,236
+761,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,104
+762,Fish Cutlet,Mexican,Non-Veg,269,9.1,16.4,76.3,Snack,64
+763,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,209
+764,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,350
+765,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,238
+766,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,275
+767,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,275
+768,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,154
+769,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,112
+770,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,157
+771,Tofu Stir Fry,Thai,Vegan,151,33.0,23.4,39.9,Dinner,226
+772,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,240
+773,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,315
+774,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,141
+775,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,344
+776,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,225
+777,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,174
+778,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,75
+779,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,123
+780,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,229
+781,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,133
+782,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,191
+783,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,113
+784,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,210
+785,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,191
+786,Vegan Pasta,Mexican,Vegan,634,6.4,21.6,45.4,Lunch,300
+787,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,192
+788,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,133
+789,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,223
+790,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,126
+791,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,176
+792,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,142
+793,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,81
+794,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,293
+795,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,222
+796,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,205
+797,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,345
+798,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,158
+799,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,223
+800,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,69
+801,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,262
+802,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,198
+803,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,237
+804,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,196
+805,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,174
+806,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,148
+807,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,249
+808,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,257
+809,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,143
+810,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,244
+811,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,334
+812,Fish Thali,Continental,Non-Veg,245,7.1,12.8,54.7,Lunch,204
+813,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,240
+814,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,237
+815,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,283
+816,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,301
+817,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,176
+818,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,282
+819,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,208
+820,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,204
+821,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,173
+822,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,231
+823,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,198
+824,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,94
+825,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,222
+826,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,278
+827,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,266
+828,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,137
+829,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,209
+830,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,300
+831,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,260
+832,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,198
+833,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,117
+834,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,219
+835,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,169
+836,Vegan Stew,Chinese,Vegan,334,39.2,26.0,55.9,Dinner,248
+837,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,320
+838,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,270
+839,Vegan Pancakes,Thai,Vegan,157,5.5,5.1,70.6,Breakfast,189
+840,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,117
+841,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,119
+842,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,190
+843,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,206
+844,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,115
+845,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,324
+846,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,197
+847,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,142
+848,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,184
+849,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,212
+850,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,196
+851,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,187
+852,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,200
+853,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,321
+854,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,255
+855,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,151
+856,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,174
+857,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,122
+858,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,187
+859,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,149
+860,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,250
+861,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,217
+862,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,183
+863,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,151
+864,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,89
+865,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,120
+866,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,124
+867,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,107
+868,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,205
+869,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,117
+870,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,89
+871,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,112
+872,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,145
+873,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,272
+874,Chole Kulche,Mediterranean,Veg,510,12.0,14.9,18.1,Breakfast,136
+875,Veggie Stir Fry,Chinese,Vegan,692,34.6,22.5,35.9,Lunch,343
+876,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,239
+877,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,219
+878,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,204
+879,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,216
+880,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,195
+881,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,222
+882,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,227
+883,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,200
+884,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,75
+885,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,328
+886,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,177
+887,Tofu Stir Fry,Thai,Vegan,151,33.0,23.4,39.9,Dinner,243
+888,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,95
+889,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,116
+890,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,205
+891,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,228
+892,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,256
+893,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,65
+894,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,127
+895,Coconut Yogurt,Indian,Vegan,675,39.2,25.4,26.5,Snack,189
+896,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,330
+897,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,150
+898,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,341
+899,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,113
+900,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,282
+901,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,327
+902,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,245
+903,Matar Paneer,Indian,Veg,412,6.1,9.6,61.5,Dinner,264
+904,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,192
+905,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,192
+906,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,154
+907,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,216
+908,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,269
+909,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,229
+910,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,265
+911,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,220
+912,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,179
+913,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,213
+914,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,215
+915,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,248
+916,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,166
+917,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,72
+918,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,224
+919,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,246
+920,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,190
+921,Chia Pudding,Chinese,Vegan,346,37.4,11.2,36.7,Snack,68
+922,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,276
+923,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,324
+924,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,282
+925,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,262
+926,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,247
+927,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,180
+928,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,208
+929,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,130
+930,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,299
+931,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,163
+932,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,214
+933,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,61
+934,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,255
+935,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,319
+936,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,224
+937,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,209
+938,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,173
+939,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,169
+940,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,261
+941,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,117
+942,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,315
+943,Vegan Tacos,Mediterranean,Vegan,460,11.5,18.2,77.2,Dinner,288
+944,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,334
+945,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,103
+946,Chicken Shawarma,Mexican,Non-Veg,506,23.0,11.0,74.0,Snack,63
+947,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,125
+948,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,129
+949,Stuffed Eggplant,Continental,Vegan,403,19.8,5.3,41.1,Dinner,286
+950,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,199
+951,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,132
+952,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,321
+953,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,103
+954,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,145
+955,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,239
+956,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,220
+957,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,195
+958,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,104
+959,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,270
+960,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,138
+961,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,125
+962,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,144
+963,Chicken Tikka,Chinese,Non-Veg,202,10.0,16.7,41.3,Snack,77
+964,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,169
+965,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,143
+966,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,247
+967,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,290
+968,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,126
+969,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,331
+970,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,100
+971,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,204
+972,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,303
+973,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,264
+974,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,120
+975,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,117
+976,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,124
+977,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,107
+978,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,274
+979,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,174
+980,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,308
+981,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,155
+982,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,122
+983,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,133
+984,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,122
+985,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,250
+986,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,286
+987,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,127
+988,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,106
+989,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,127
+990,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,101
+991,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,131
+992,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,136
+993,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,191
+994,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,280
+995,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,78
+996,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,212
+997,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,233
+998,Dal Fry with Rice,Chinese,Veg,376,30.9,22.7,62.5,Lunch,249
+999,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,171
+1000,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,185
+1001,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,244
+1002,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,205
+1003,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,106
+1004,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,315
+1005,Scrambled Eggs,Mediterranean,Non-Veg,206,13.6,10.6,33.8,Breakfast,200
+1006,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,134
+1007,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,139
+1008,Egg Bhurji,Italian,Non-Veg,238,32.0,17.2,16.7,Snack,140
+1009,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,194
+1010,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,218
+1011,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,196
+1012,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,142
+1013,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,222
+1014,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,316
+1015,Chicken Biryani,Continental,Non-Veg,342,14.0,7.2,16.4,Lunch,203
+1016,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,288
+1017,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,177
+1018,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,182
+1019,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,131
+1020,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,112
+1021,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,167
+1022,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,229
+1023,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,207
+1024,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,296
+1025,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,323
+1026,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,161
+1027,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,143
+1028,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,159
+1029,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,118
+1030,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,300
+1031,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,140
+1032,Granola,Italian,Vegan,255,31.4,19.6,11.7,Snack,105
+1033,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,285
+1034,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,157
+1035,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,277
+1036,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,196
+1037,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,265
+1038,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,260
+1039,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,99
+1040,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,340
+1041,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,126
+1042,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,259
+1043,Egg Roll,Thai,Non-Veg,472,20.6,7.4,73.6,Snack,132
+1044,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,340
+1045,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,152
+1046,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,168
+1047,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,129
+1048,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,228
+1049,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,203
+1050,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,245
+1051,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,176
+1052,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,322
+1053,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,287
+1054,Egg Roll,Chinese,Non-Veg,659,35.4,18.5,27.9,Breakfast,121
+1055,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,268
+1056,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,224
+1057,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,242
+1058,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,335
+1059,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,241
+1060,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,253
+1061,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,197
+1062,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,188
+1063,Stuffed Eggplant,Continental,Vegan,403,19.8,5.3,41.1,Dinner,258
+1064,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,100
+1065,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,146
+1066,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,246
+1067,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,236
+1068,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,175
+1069,Chicken Momos,Thai,Non-Veg,452,30.9,2.1,61.7,Snack,80
+1070,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,197
+1071,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,323
+1072,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,158
+1073,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,223
+1074,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,241
+1075,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,241
+1076,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,241
+1077,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,51
+1078,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,103
+1079,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,87
+1080,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,50
+1081,Onion Dosa,Chinese,Veg,500,8.1,7.7,16.6,Breakfast,144
+1082,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,205
+1083,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,166
+1084,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,170
+1085,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,315
+1086,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,108
+1087,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,53
+1088,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,173
+1089,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,213
+1090,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,250
+1091,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,138
+1092,Egg Roll,Chinese,Non-Veg,659,35.4,18.5,27.9,Breakfast,157
+1093,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,110
+1094,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,101
+1095,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,100
+1096,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,303
+1097,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,115
+1098,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,176
+1099,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,219
+1100,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,118
+1101,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,313
+1102,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,203
+1103,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,224
+1104,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,117
+1105,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,239
+1106,Granola with Almond Milk,Chinese,Vegan,619,39.8,21.1,62.5,Breakfast,137
+1107,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,102
+1108,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,235
+1109,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,71
+1110,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,220
+1111,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,195
+1112,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,200
+1113,Egg Masala,Italian,Non-Veg,191,8.8,12.7,12.3,Dinner,201
+1114,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,150
+1115,Stuffed Paratha,Chinese,Veg,544,35.9,15.2,56.9,Dinner,280
+1116,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,226
+1117,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,338
+1118,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,105
+1119,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,106
+1120,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,88
+1121,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,250
+1122,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,245
+1123,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,187
+1124,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,172
+1125,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,206
+1126,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,200
+1127,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,152
+1128,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,124
+1129,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,345
+1130,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,56
+1131,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,322
+1132,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,248
+1133,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,187
+1134,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,84
+1135,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,192
+1136,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,211
+1137,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,263
+1138,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,138
+1139,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,155
+1140,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,163
+1141,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,64
+1142,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,140
+1143,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,245
+1144,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,282
+1145,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,116
+1146,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,104
+1147,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,285
+1148,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,219
+1149,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,298
+1150,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,246
+1151,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,225
+1152,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,123
+1153,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,182
+1154,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,134
+1155,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,70
+1156,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,165
+1157,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,252
+1158,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,272
+1159,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,250
+1160,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,305
+1161,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,196
+1162,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,213
+1163,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,297
+1164,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,118
+1165,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,136
+1166,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,249
+1167,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,217
+1168,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,211
+1169,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,261
+1170,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,236
+1171,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,223
+1172,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,202
+1173,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,205
+1174,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,166
+1175,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,266
+1176,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,301
+1177,Vegan Smoothie,Thai,Vegan,505,10.0,15.8,44.0,Snack,103
+1178,Jackfruit Curry,Italian,Vegan,236,5.5,29.3,61.8,Dinner,245
+1179,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,122
+1180,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,225
+1181,Mutton Stew,Indian,Non-Veg,588,30.2,12.2,59.8,Dinner,270
+1182,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,267
+1183,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,200
+1184,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,229
+1185,Fish Fry with Rice,Indian,Non-Veg,178,15.5,12.3,79.9,Dinner,209
+1186,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,181
+1187,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,180
+1188,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,113
+1189,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,194
+1190,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,89
+1191,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,126
+1192,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,209
+1193,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,184
+1194,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,128
+1195,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,238
+1196,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,280
+1197,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,247
+1198,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,125
+1199,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,200
+1200,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,244
+1201,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,115
+1202,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,111
+1203,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,227
+1204,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,127
+1205,Thai Green Curry,Indian,Vegan,504,18.1,28.6,61.2,Dinner,293
+1206,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,157
+1207,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,153
+1208,Matar Paneer,Indian,Veg,412,6.1,9.6,61.5,Dinner,265
+1209,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,134
+1210,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,238
+1211,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,117
+1212,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,136
+1213,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,165
+1214,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,265
+1215,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,276
+1216,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,250
+1217,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,230
+1218,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,307
+1219,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,284
+1220,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,150
+1221,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,249
+1222,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,124
+1223,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,304
+1224,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,270
+1225,Egg Fried Rice,Chinese,Non-Veg,550,36.9,5.9,54.0,Dinner,262
+1226,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,325
+1227,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,251
+1228,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,111
+1229,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,136
+1230,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,323
+1231,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,198
+1232,Aloo Paratha,Mexican,Veg,341,34.2,14.1,37.4,Breakfast,160
+1233,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,183
+1234,Besan Chilla,Mexican,Veg,192,17.2,3.0,47.1,Breakfast,157
+1235,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,202
+1236,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,217
+1237,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,170
+1238,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,179
+1239,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,149
+1240,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,276
+1241,Aloo Paratha,Thai,Veg,677,21.8,13.3,13.5,Lunch,343
+1242,Matar Paneer,Indian,Veg,412,6.1,9.6,61.5,Dinner,257
+1243,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,174
+1244,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,119
+1245,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,269
+1246,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,177
+1247,Egg Roll,Thai,Non-Veg,472,20.6,7.4,73.6,Snack,190
+1248,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,150
+1249,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,151
+1250,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,110
+1251,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,213
+1252,Fish Masala,Continental,Non-Veg,297,36.4,25.5,68.6,Dinner,239
+1253,Bhindi Masala,Continental,Veg,360,9.7,20.6,44.9,Lunch,223
+1254,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,155
+1255,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,98
+1256,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,250
+1257,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,121
+1258,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,199
+1259,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,225
+1260,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,125
+1261,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,125
+1262,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,249
+1263,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,172
+1264,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,230
+1265,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,285
+1266,Bhindi Masala,Continental,Veg,360,9.7,20.6,44.9,Lunch,216
+1267,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,109
+1268,Egg Roll,Chinese,Non-Veg,659,35.4,18.5,27.9,Breakfast,109
+1269,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,219
+1270,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,223
+1271,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,350
+1272,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,98
+1273,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,114
+1274,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,191
+1275,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,208
+1276,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,189
+1277,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,225
+1278,Vegan Energy Balls,Mediterranean,Vegan,364,29.1,6.0,76.8,Snack,109
+1279,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,321
+1280,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,230
+1281,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,213
+1282,Avocado Toast,Indian,Vegan,483,17.2,4.9,16.4,Snack,71
+1283,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,225
+1284,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,267
+1285,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,234
+1286,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,227
+1287,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,324
+1288,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,224
+1289,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,322
+1290,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,245
+1291,Vegan Stew,Chinese,Vegan,334,39.2,26.0,55.9,Dinner,249
+1292,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,343
+1293,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,229
+1294,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,253
+1295,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,260
+1296,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,94
+1297,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,264
+1298,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,295
+1299,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,262
+1300,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,230
+1301,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,106
+1302,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,213
+1303,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,190
+1304,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,93
+1305,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,105
+1306,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,162
+1307,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,304
+1308,Chicken Biryani,Continental,Non-Veg,342,14.0,7.2,16.4,Lunch,223
+1309,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,254
+1310,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,64
+1311,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,205
+1312,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,204
+1313,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,163
+1314,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,143
+1315,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,232
+1316,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,167
+1317,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,166
+1318,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,200
+1319,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,157
+1320,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,123
+1321,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,131
+1322,Chicken Momos,Thai,Non-Veg,452,30.9,2.1,61.7,Snack,67
+1323,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,193
+1324,Onion Dosa,Chinese,Veg,500,8.1,7.7,16.6,Breakfast,143
+1325,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,95
+1326,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,217
+1327,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,111
+1328,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,199
+1329,Vegan Scramble,Mediterranean,Vegan,223,24.7,23.8,54.9,Breakfast,172
+1330,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,245
+1331,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,292
+1332,Thai Green Curry,Indian,Vegan,504,18.1,28.6,61.2,Dinner,254
+1333,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,108
+1334,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,245
+1335,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,134
+1336,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,167
+1337,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,259
+1338,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,164
+1339,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,143
+1340,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,208
+1341,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,88
+1342,Fish Cutlet,Mexican,Non-Veg,269,9.1,16.4,76.3,Snack,122
+1343,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,171
+1344,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,335
+1345,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,233
+1346,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,125
+1347,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,142
+1348,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,59
+1349,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,124
+1350,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,159
+1351,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,246
+1352,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,247
+1353,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,87
+1354,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,166
+1355,Egg Masala,Italian,Non-Veg,191,8.8,12.7,12.3,Dinner,224
+1356,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,242
+1357,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,53
+1358,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,194
+1359,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,79
+1360,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,146
+1361,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,267
+1362,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,194
+1363,Veg Thali,Continental,Veg,647,38.3,14.9,40.2,Lunch,300
+1364,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,285
+1365,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,65
+1366,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,237
+1367,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,202
+1368,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,230
+1369,Paneer Tikka,Italian,Veg,670,31.5,5.0,15.5,Snack,143
+1370,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,283
+1371,Chicken Do Pyaza,Chinese,Non-Veg,613,38.9,17.6,25.9,Dinner,306
+1372,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,197
+1373,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,246
+1374,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,201
+1375,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,163
+1376,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,292
+1377,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,143
+1378,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,269
+1379,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,335
+1380,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,225
+1381,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,122
+1382,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,141
+1383,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,60
+1384,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,328
+1385,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,128
+1386,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,187
+1387,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,263
+1388,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,182
+1389,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,151
+1390,Vegan Stew,Chinese,Vegan,334,39.2,26.0,55.9,Dinner,228
+1391,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,57
+1392,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,166
+1393,Chicken Momos,Thai,Non-Veg,452,30.9,2.1,61.7,Snack,200
+1394,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,127
+1395,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,315
+1396,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,242
+1397,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,195
+1398,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,165
+1399,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,212
+1400,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,80
+1401,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,174
+1402,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,125
+1403,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,128
+1404,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,337
+1405,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,235
+1406,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,238
+1407,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,147
+1408,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,133
+1409,Chole Kulche,Mediterranean,Veg,510,12.0,14.9,18.1,Breakfast,168
+1410,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,184
+1411,Samosa,Thai,Veg,403,16.7,6.6,16.0,Snack,165
+1412,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,172
+1413,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,150
+1414,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,213
+1415,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,209
+1416,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,165
+1417,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,234
+1418,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,129
+1419,Lentil Soup,Continental,Vegan,397,39.6,17.7,36.2,Lunch,239
+1420,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,204
+1421,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,147
+1422,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,214
+1423,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,251
+1424,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,121
+1425,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,115
+1426,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,193
+1427,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,125
+1428,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,200
+1429,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,126
+1430,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,278
+1431,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,248
+1432,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,108
+1433,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,58
+1434,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,151
+1435,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,307
+1436,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,90
+1437,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,222
+1438,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,117
+1439,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,288
+1440,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,189
+1441,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,114
+1442,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,107
+1443,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,138
+1444,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,195
+1445,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,194
+1446,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,107
+1447,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,216
+1448,Vegan Smoothie,Thai,Vegan,505,10.0,15.8,44.0,Snack,80
+1449,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,100
+1450,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,162
+1451,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,127
+1452,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,271
+1453,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,196
+1454,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,306
+1455,Vegan Muffins,Continental,Vegan,187,11.7,13.0,77.2,Breakfast,166
+1456,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,247
+1457,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,231
+1458,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,159
+1459,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,299
+1460,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,87
+1461,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,63
+1462,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,122
+1463,Bacon and Eggs,Thai,Non-Veg,581,16.3,12.9,72.6,Breakfast,168
+1464,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,109
+1465,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,222
+1466,Dal Tadka with Roti,Chinese,Veg,324,17.9,2.7,65.6,Dinner,246
+1467,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,137
+1468,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,168
+1469,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,245
+1470,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,142
+1471,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,203
+1472,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,202
+1473,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,117
+1474,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,158
+1475,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,142
+1476,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,300
+1477,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,121
+1478,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,205
+1479,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,300
+1480,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,267
+1481,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,289
+1482,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,300
+1483,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,133
+1484,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,129
+1485,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,101
+1486,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,159
+1487,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,263
+1488,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,182
+1489,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,200
+1490,Bacon and Eggs,Thai,Non-Veg,581,16.3,12.9,72.6,Breakfast,182
+1491,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,235
+1492,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,109
+1493,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,161
+1494,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,196
+1495,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,216
+1496,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,102
+1497,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,155
+1498,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,210
+1499,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,127
+1500,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,155
+1501,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,246
+1502,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,136
+1503,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,134
+1504,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,181
+1505,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,203
+1506,Prawn Biryani,Thai,Non-Veg,690,21.5,21.9,65.4,Lunch,347
+1507,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,181
+1508,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,143
+1509,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,101
+1510,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,76
+1511,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,246
+1512,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,268
+1513,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,226
+1514,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,173
+1515,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,216
+1516,Egg Roll,Chinese,Non-Veg,659,35.4,18.5,27.9,Breakfast,127
+1517,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,148
+1518,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,269
+1519,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,338
+1520,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,190
+1521,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,293
+1522,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,120
+1523,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,52
+1524,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,248
+1525,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,294
+1526,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,178
+1527,Scrambled Eggs,Mediterranean,Non-Veg,206,13.6,10.6,33.8,Breakfast,121
+1528,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,154
+1529,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,227
+1530,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,154
+1531,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,298
+1532,Dal Fry with Rice,Chinese,Veg,376,30.9,22.7,62.5,Lunch,204
+1533,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,296
+1534,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,208
+1535,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,193
+1536,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,250
+1537,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,141
+1538,Fish Masala,Continental,Non-Veg,297,36.4,25.5,68.6,Dinner,220
+1539,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,303
+1540,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,271
+1541,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,334
+1542,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,134
+1543,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,111
+1544,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,195
+1545,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,117
+1546,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,113
+1547,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,156
+1548,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,115
+1549,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,117
+1550,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,320
+1551,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,165
+1552,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,226
+1553,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,116
+1554,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,157
+1555,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,169
+1556,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,250
+1557,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,162
+1558,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,340
+1559,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,140
+1560,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,191
+1561,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,163
+1562,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,113
+1563,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,227
+1564,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,113
+1565,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,200
+1566,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,119
+1567,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,278
+1568,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,195
+1569,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,89
+1570,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,302
+1571,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,291
+1572,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,146
+1573,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,129
+1574,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,194
+1575,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,199
+1576,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,159
+1577,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,101
+1578,Vegan Lasagna,Italian,Vegan,223,6.9,7.5,63.3,Dinner,200
+1579,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,207
+1580,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,117
+1581,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,104
+1582,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,147
+1583,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,236
+1584,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,78
+1585,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,140
+1586,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,118
+1587,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,223
+1588,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,336
+1589,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,244
+1590,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,251
+1591,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,155
+1592,Egg Roll,Chinese,Non-Veg,659,35.4,18.5,27.9,Breakfast,138
+1593,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,309
+1594,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,296
+1595,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,133
+1596,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,152
+1597,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,145
+1598,Aloo Paratha,Thai,Veg,677,21.8,13.3,13.5,Lunch,322
+1599,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,174
+1600,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,150
+1601,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,242
+1602,Malai Kofta,Indian,Veg,252,14.8,19.3,55.5,Dinner,250
+1603,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,146
+1604,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,151
+1605,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,190
+1606,Chicken Pakora,Mexican,Non-Veg,585,19.4,25.1,51.0,Snack,147
+1607,Vegan Bagel with Spread,Continental,Vegan,678,10.4,9.0,47.6,Breakfast,161
+1608,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,264
+1609,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,124
+1610,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,206
+1611,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,245
+1612,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,241
+1613,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,242
+1614,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,178
+1615,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,153
+1616,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,230
+1617,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,76
+1618,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,278
+1619,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,150
+1620,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,288
+1621,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,192
+1622,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,55
+1623,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,155
+1624,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,126
+1625,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,109
+1626,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,228
+1627,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,168
+1628,Stuffed Eggplant,Continental,Vegan,403,19.8,5.3,41.1,Dinner,265
+1629,Kale Chips,Italian,Vegan,643,10.3,13.9,58.8,Snack,137
+1630,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,265
+1631,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,225
+1632,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,169
+1633,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,341
+1634,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,102
+1635,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,162
+1636,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,209
+1637,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,189
+1638,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,243
+1639,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,251
+1640,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,154
+1641,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,163
+1642,Besan Chilla,Mexican,Veg,192,17.2,3.0,47.1,Breakfast,116
+1643,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,272
+1644,Veg Spring Roll,Italian,Veg,385,9.3,25.1,65.4,Snack,170
+1645,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,95
+1646,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,239
+1647,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,226
+1648,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,110
+1649,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,244
+1650,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,245
+1651,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,321
+1652,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,237
+1653,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,165
+1654,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,269
+1655,Vegan Smoothie,Thai,Vegan,505,10.0,15.8,44.0,Snack,145
+1656,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,131
+1657,Jackfruit Curry,Italian,Vegan,236,5.5,29.3,61.8,Dinner,223
+1658,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,300
+1659,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,52
+1660,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,173
+1661,Chicken Tikka,Chinese,Non-Veg,202,10.0,16.7,41.3,Snack,162
+1662,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,299
+1663,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,223
+1664,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,215
+1665,Vegan Shepherd’s Pie,Chinese,Vegan,471,20.0,13.1,55.8,Dinner,275
+1666,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,251
+1667,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,120
+1668,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,220
+1669,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,230
+1670,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,246
+1671,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,142
+1672,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,138
+1673,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,192
+1674,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,155
+1675,Vegan Chili,Continental,Vegan,256,39.4,3.1,43.0,Dinner,221
+1676,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,155
+1677,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,182
+1678,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,337
+1679,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,206
+1680,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,113
+1681,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,284
+1682,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,199
+1683,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,160
+1684,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,188
+1685,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,96
+1686,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,287
+1687,Masala Corn,Thai,Veg,408,23.0,22.2,32.7,Snack,82
+1688,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,102
+1689,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,192
+1690,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,200
+1691,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,108
+1692,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,121
+1693,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,204
+1694,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,200
+1695,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,162
+1696,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,206
+1697,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,133
+1698,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,201
+1699,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,338
+1700,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,347
+1701,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,170
+1702,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,269
+1703,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,336
+1704,Grilled Veggie Sandwich,Italian,Vegan,278,32.0,28.0,44.9,Lunch,217
+1705,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,244
+1706,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,137
+1707,Vegan Pizza,Mediterranean,Vegan,345,19.6,10.9,26.9,Dinner,205
+1708,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,258
+1709,Omelette,Chinese,Non-Veg,242,20.1,26.8,59.8,Breakfast,192
+1710,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,334
+1711,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,154
+1712,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,128
+1713,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,59
+1714,Chicken Wings,Thai,Non-Veg,458,34.5,22.0,65.7,Snack,167
+1715,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,255
+1716,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,60
+1717,Veg Sandwich,Mexican,Veg,232,34.6,29.2,77.2,Breakfast,166
+1718,Paneer Tikka,Italian,Veg,670,31.5,5.0,15.5,Snack,172
+1719,Upma,Thai,Veg,470,12.0,21.2,34.0,Breakfast,100
+1720,Egg Curry with Rice,Continental,Non-Veg,216,19.6,15.2,26.6,Lunch,250
+1721,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,158
+1722,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,316
+1723,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,231
+1724,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,211
+1725,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,100
+1726,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,111
+1727,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,244
+1728,Coconut Yogurt,Indian,Vegan,675,39.2,25.4,26.5,Snack,95
+1729,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,288
+1730,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,130
+1731,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,212
+1732,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,184
+1733,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,168
+1734,Keema Curry,Chinese,Non-Veg,622,15.4,8.4,74.6,Lunch,336
+1735,Fish Sandwich,Chinese,Non-Veg,507,10.7,9.5,56.4,Breakfast,109
+1736,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,90
+1737,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,177
+1738,Mutton Seekh Kebab,Thai,Non-Veg,561,37.8,19.8,44.6,Snack,191
+1739,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,181
+1740,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,98
+1741,Stuffed Paratha,Chinese,Veg,544,35.9,15.2,56.9,Dinner,293
+1742,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,249
+1743,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,292
+1744,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,188
+1745,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,304
+1746,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,138
+1747,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,306
+1748,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,198
+1749,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,166
+1750,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,131
+1751,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,115
+1752,Stuffed Paratha,Chinese,Veg,544,35.9,15.2,56.9,Dinner,282
+1753,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,85
+1754,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,291
+1755,Masala Dosa,Mediterranean,Veg,435,10.4,28.0,32.0,Breakfast,200
+1756,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,265
+1757,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,77
+1758,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,211
+1759,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,242
+1760,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,212
+1761,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,121
+1762,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,118
+1763,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,324
+1764,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,97
+1765,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,113
+1766,Veg Cutlet,Thai,Veg,269,19.8,11.1,76.6,Snack,137
+1767,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,216
+1768,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,206
+1769,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,274
+1770,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,321
+1771,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,118
+1772,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,124
+1773,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,101
+1774,Besan Chilla,Mexican,Veg,192,17.2,3.0,47.1,Breakfast,171
+1775,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,138
+1776,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,186
+1777,Egg Sandwich,Mexican,Non-Veg,205,16.2,25.7,71.5,Breakfast,161
+1778,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,197
+1779,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,129
+1780,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,255
+1781,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,122
+1782,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,151
+1783,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,335
+1784,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,204
+1785,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,127
+1786,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,200
+1787,Egg Fried Rice,Chinese,Non-Veg,550,36.9,5.9,54.0,Dinner,288
+1788,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,64
+1789,Gobi Masala,Indian,Veg,528,23.1,6.7,22.4,Dinner,283
+1790,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,251
+1791,Chole Bhature,Indian,Veg,368,33.0,28.4,63.9,Lunch,243
+1792,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,166
+1793,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,151
+1794,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,148
+1795,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,111
+1796,Veg Thali,Continental,Veg,647,38.3,14.9,40.2,Lunch,330
+1797,Chicken Tikka Masala,Continental,Non-Veg,698,14.2,11.0,47.2,Dinner,328
+1798,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,305
+1799,Vegan Pancakes,Thai,Vegan,157,5.5,5.1,70.6,Breakfast,152
+1800,Cauliflower Steaks,Italian,Vegan,391,6.4,22.3,43.3,Dinner,217
+1801,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,177
+1802,Chicken Korma,Mediterranean,Non-Veg,459,20.4,12.4,12.2,Lunch,297
+1803,Chicken Fried Rice,Italian,Non-Veg,659,29.6,11.3,17.3,Lunch,310
+1804,Mutton Keema,Continental,Non-Veg,293,38.7,17.8,46.5,Dinner,228
+1805,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,201
+1806,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,197
+1807,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,82
+1808,Cheese Toast,Chinese,Veg,250,30.1,6.5,20.2,Snack,118
+1809,Paneer Lababdar,Italian,Veg,518,20.9,28.6,27.8,Dinner,250
+1810,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,192
+1811,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,150
+1812,Fish Masala,Continental,Non-Veg,297,36.4,25.5,68.6,Dinner,248
+1813,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,85
+1814,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,125
+1815,Vegan Popcorn,Indian,Vegan,393,16.0,8.3,12.1,Snack,183
+1816,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,178
+1817,Scrambled Eggs,Mediterranean,Non-Veg,206,13.6,10.6,33.8,Breakfast,174
+1818,Egg Paratha,Indian,Non-Veg,252,30.6,12.8,79.9,Breakfast,121
+1819,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,299
+1820,Vegetable Uttapam,Chinese,Veg,243,39.7,14.9,26.7,Breakfast,150
+1821,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,223
+1822,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,122
+1823,Paneer Tikka,Italian,Veg,670,31.5,5.0,15.5,Snack,85
+1824,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,142
+1825,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,184
+1826,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,144
+1827,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,160
+1828,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,155
+1829,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,101
+1830,Mutton Pulao,Indian,Non-Veg,271,10.7,18.4,45.5,Lunch,200
+1831,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,309
+1832,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,292
+1833,Quinoa Salad,Thai,Vegan,349,39.8,12.4,47.6,Lunch,217
+1834,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,174
+1835,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,242
+1836,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,291
+1837,Egg Bhurji with Bread,Thai,Non-Veg,151,32.8,17.6,33.7,Breakfast,167
+1838,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,273
+1839,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,169
+1840,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,260
+1841,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,162
+1842,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,105
+1843,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,211
+1844,Butter Chicken,Indian,Non-Veg,208,19.1,29.3,59.9,Lunch,211
+1845,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,207
+1846,Veg Manchurian,Mediterranean,Veg,322,7.3,3.3,18.2,Dinner,247
+1847,Veg Korma,Chinese,Veg,344,26.7,17.0,41.2,Dinner,246
+1848,Chicken Wings,Thai,Non-Veg,458,34.5,22.0,65.7,Snack,115
+1849,Vegan Waffles,Italian,Vegan,440,35.7,3.2,23.5,Breakfast,138
+1850,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,63
+1851,Chicken Tikka,Chinese,Non-Veg,202,10.0,16.7,41.3,Snack,155
+1852,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,188
+1853,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,197
+1854,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,228
+1855,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,172
+1856,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,292
+1857,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,257
+1858,Vegan Scramble,Mediterranean,Vegan,223,24.7,23.8,54.9,Breakfast,168
+1859,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,300
+1860,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,192
+1861,Vegan Protein Bar,Mexican,Vegan,365,7.7,29.5,27.6,Snack,58
+1862,Veg Biryani,Thai,Veg,323,29.0,8.9,78.7,Lunch,237
+1863,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,204
+1864,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,119
+1865,Veg Handi,Thai,Veg,337,32.2,26.1,79.6,Dinner,214
+1866,Vegan Burrito,Italian,Vegan,477,30.1,11.3,40.9,Lunch,284
+1867,Veg Pizza Slice,Chinese,Veg,276,22.4,11.7,76.7,Snack,160
+1868,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,156
+1869,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,129
+1870,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,195
+1871,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,130
+1872,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,180
+1873,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,262
+1874,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,119
+1875,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,268
+1876,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,180
+1877,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,235
+1878,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,272
+1879,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,185
+1880,Chicken Sausage,Thai,Non-Veg,492,37.0,24.4,11.1,Breakfast,195
+1881,Chicken Tikka,Chinese,Non-Veg,202,10.0,16.7,41.3,Snack,99
+1882,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,179
+1883,Chicken Handi,Chinese,Non-Veg,668,33.8,30.0,16.9,Dinner,348
+1884,Vegan Wrap,Italian,Vegan,497,15.1,22.3,51.3,Lunch,271
+1885,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,223
+1886,Chicken Frankie,Thai,Non-Veg,607,31.0,30.0,41.0,Breakfast,117
+1887,Chicken Biryani,Continental,Non-Veg,342,14.0,7.2,16.4,Lunch,233
+1888,Vegan Overnight Oats,Indian,Vegan,567,10.3,29.6,20.1,Breakfast,176
+1889,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,158
+1890,Stuffed Eggplant,Continental,Vegan,403,19.8,5.3,41.1,Dinner,282
+1891,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,181
+1892,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,248
+1893,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,295
+1894,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,334
+1895,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,148
+1896,Vegetable Khichdi,Continental,Veg,367,24.1,9.6,26.9,Lunch,248
+1897,Veg Burger,Mediterranean,Veg,350,34.4,27.3,39.8,Snack,100
+1898,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,241
+1899,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,67
+1900,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,68
+1901,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,241
+1902,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,178
+1903,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,111
+1904,Chicken Nuggets,Italian,Non-Veg,202,32.3,9.2,30.4,Snack,163
+1905,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,249
+1906,Paneer Tikka Masala,Mexican,Veg,699,26.8,27.2,61.5,Dinner,322
+1907,Avocado Toast,Thai,Vegan,402,11.6,2.4,44.2,Breakfast,165
+1908,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,145
+1909,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,203
+1910,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,269
+1911,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,186
+1912,Vegan Shepherd’s Pie,Chinese,Vegan,471,20.0,13.1,55.8,Dinner,295
+1913,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,130
+1914,Butter Chicken with Naan,Indian,Non-Veg,261,7.9,17.1,48.5,Dinner,237
+1915,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,294
+1916,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,252
+1917,Poha,Italian,Veg,606,37.2,25.6,46.6,Breakfast,158
+1918,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,157
+1919,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,109
+1920,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,123
+1921,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,212
+1922,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,242
+1923,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,96
+1924,Fish Pakora,Indian,Non-Veg,338,35.0,27.3,20.0,Snack,158
+1925,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,305
+1926,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,176
+1927,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,119
+1928,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,60
+1929,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,171
+1930,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,132
+1931,Chicken Poha,Mediterranean,Non-Veg,316,9.2,26.4,60.2,Breakfast,197
+1932,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,285
+1933,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,119
+1934,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,105
+1935,Chicken Shawarma Roll,Mexican,Non-Veg,462,37.6,4.8,48.0,Dinner,264
+1936,Chole Kulche,Mediterranean,Veg,510,12.0,14.9,18.1,Breakfast,197
+1937,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,103
+1938,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,147
+1939,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,263
+1940,Chicken Momos,Thai,Non-Veg,452,30.9,2.1,61.7,Snack,124
+1941,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,213
+1942,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,72
+1943,Fish Curry,Thai,Non-Veg,574,12.1,2.6,45.0,Lunch,266
+1944,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,184
+1945,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,108
+1946,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,229
+1947,Kadhi Chawal,Indian,Veg,162,8.7,14.5,79.3,Lunch,245
+1948,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,53
+1949,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,201
+1950,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,219
+1951,Vegan Pasta,Mexican,Vegan,634,6.4,21.6,45.4,Lunch,329
+1952,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,344
+1953,Veg Fried Rice,Continental,Veg,346,5.2,14.0,16.1,Dinner,221
+1954,Egg Sandwich,Indian,Non-Veg,190,11.3,29.3,61.1,Snack,103
+1955,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,199
+1956,Mushroom Risotto,Thai,Vegan,692,18.2,16.6,15.0,Dinner,302
+1957,Vegan Sushi,Chinese,Vegan,381,16.5,24.1,57.9,Lunch,211
+1958,Chicken Keema Paratha,Mexican,Non-Veg,194,30.1,19.3,57.0,Breakfast,106
+1959,Rajma Chawal,Mexican,Veg,339,15.3,13.1,73.4,Lunch,222
+1960,Chicken Tandoori,Mexican,Non-Veg,231,13.0,29.9,19.2,Lunch,212
+1961,Vegan Yogurt Bowl,Continental,Vegan,258,18.5,20.1,48.6,Breakfast,108
+1962,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,284
+1963,Veg Kofta Curry,Mexican,Veg,303,11.8,18.5,50.4,Lunch,220
+1964,Stuffed Bell Peppers,Italian,Vegan,386,7.7,5.1,38.6,Lunch,249
+1965,Vegan Buddha Bowl,Mexican,Vegan,364,25.4,18.0,38.3,Lunch,250
+1966,Veg Momos,Chinese,Veg,339,9.5,25.7,79.9,Snack,131
+1967,Roasted Chickpeas,Continental,Vegan,347,11.3,2.4,74.0,Snack,149
+1968,Idli Sambar,Italian,Veg,160,24.5,3.0,59.9,Breakfast,155
+1969,Chia Pudding,Italian,Vegan,601,8.5,4.5,71.5,Breakfast,194
+1970,Jeera Rice with Curry,Chinese,Veg,597,31.9,8.1,49.4,Dinner,257
+1971,Fish Fingers,Italian,Non-Veg,317,33.0,29.9,47.3,Snack,104
+1972,Vegan Noodles,Mediterranean,Vegan,194,28.8,21.9,57.3,Dinner,239
+1973,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,156
+1974,Dhokla,Thai,Veg,318,20.4,11.6,79.8,Snack,192
+1975,Chickpea Curry,Mexican,Vegan,391,10.9,13.7,15.2,Lunch,212
+1976,Veg Pakora,Italian,Veg,207,17.3,3.5,44.9,Snack,181
+1977,Veg Sandwich,Thai,Veg,164,33.6,14.2,70.5,Snack,81
+1978,Prawn Masala,Thai,Non-Veg,580,28.6,11.5,52.6,Lunch,254
+1979,Mutton Biryani,Italian,Non-Veg,577,34.2,20.7,74.0,Dinner,278
+1980,Sweet Potato Bowl,Italian,Vegan,267,37.4,25.1,71.5,Lunch,223
+1981,Fruit Bowl,Continental,Vegan,292,20.0,26.6,19.4,Breakfast,111
+1982,Trail Mix,Mediterranean,Vegan,658,17.4,9.8,34.6,Snack,65
+1983,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,267
+1984,Couscous Salad,Continental,Vegan,495,36.1,25.5,68.7,Lunch,255
+1985,Tofu Scramble Wrap,Mediterranean,Vegan,195,15.0,10.2,37.7,Breakfast,194
+1986,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,312
+1987,Veg Frankie,Continental,Veg,439,28.3,13.9,24.8,Snack,100
+1988,Veg Hakka Noodles,Chinese,Veg,595,38.6,16.7,10.6,Dinner,271
+1989,Vegan Muffins,Chinese,Vegan,278,38.3,3.2,59.3,Snack,132
+1990,Oatmeal,Mediterranean,Vegan,161,9.2,20.1,18.6,Breakfast,112
+1991,Bhel Puri,Mediterranean,Veg,311,13.8,10.7,74.2,Snack,117
+1992,Chicken Cutlet,Italian,Non-Veg,543,35.6,13.8,77.5,Breakfast,124
+1993,Fish Thali,Continental,Non-Veg,245,7.1,12.8,54.7,Lunch,221
+1994,Peanut Butter Dates,Indian,Vegan,223,28.7,6.6,46.6,Snack,122
+1995,Mutton Rogan Josh,Italian,Non-Veg,613,32.6,29.2,78.4,Lunch,340
+1996,Chicken Sandwich,Mexican,Non-Veg,517,35.7,28.8,20.1,Breakfast,152
+1997,Chicken Burger,Mexican,Non-Veg,392,30.9,25.9,41.4,Snack,88
+1998,Shahi Paneer,Continental,Veg,653,13.0,21.3,14.7,Lunch,311
+1999,Peanut Butter Toast,Chinese,Vegan,451,14.5,3.2,31.8,Breakfast,149
+2000,Pav Bhaji,Mediterranean,Veg,457,15.8,12.5,28.8,Breakfast,155
