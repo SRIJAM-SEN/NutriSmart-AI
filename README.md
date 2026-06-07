@@ -324,35 +324,19 @@ http://127.0.0.1:5000
 
 ---
 
-## 📷 Screenshots
+## 📷 Application Screenshots
 
-### Home Page
+### 🏠 Home Page
+<img src="static/home.png.png" width="900">
 
-Add Screenshot Here
+### 🥗 Smart Food Recommendation System
+<img src="static/recommender.png.png" width="900">
 
-```md
-![Home Page](screenshots/home.png)
-```
+### 📅 7-Day Meal Planner
+<img src="static/mealplanner.png.png" width="900">
 
-### Food Recommendation Page
-
-```md
-![Food Recommendation](screenshots/recommender.png)
-```
-
-### 7-Day Meal Planner
-
-```md
-![Meal Planner](screenshots/mealplanner.png)
-```
-
-### Feedback Page
-
-```md
-![Feedback](screenshots/feedback.png)
-```
-
----
+### ⭐ Feedback System
+<img src="static/feedback.png.png" width="900">
 
 ## 📈 Results
 
