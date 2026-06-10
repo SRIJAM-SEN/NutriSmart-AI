@@ -786,55 +786,84 @@ document.addEventListener('DOMContentLoaded', function () {
 
     });
 
+// ================= OPEN RESTAURANTS =================
 
-    // ================= OPEN RESTAURANTS =================
+document.querySelectorAll('.food-location-card')
+.forEach(card => {
 
-    document.querySelectorAll('.food-location-card')
-    .forEach(card => {
+    card.addEventListener('click', function(e) {
 
-        card.addEventListener('click', function(e) {
+        if (
+            e.target.closest('.like-btn') ||
+            e.target.closest('.fav-btn') ||
+            e.target.closest('.submit-feedback') ||
+            e.target.closest('.food-feedback') ||
+            e.target.closest('.rating-stars') ||
+            e.target.closest('.delete-review')
+        ) {
+            return;
+        }
 
-            if (
-                e.target.closest('.like-btn') ||
-                e.target.closest('.fav-btn') ||
-                e.target.closest('.submit-feedback') ||
-                e.target.closest('.food-feedback') ||
-                e.target.closest('.rating-stars') ||
-                e.target.closest('.delete-review')
-            ) {
-                return;
-            }
+        const foodName = this.getAttribute('data-food');
 
-            const foodName = this.getAttribute('data-food');
-
-// Hide all customize info
-document.querySelectorAll('.customize-info')
-.forEach(info => {
-
-    info.classList.add('d-none');
-
-});
-
-// Show customize info only for clicked food
-const customizeInfo =
-    this.querySelector('.customize-info');
-
-if (customizeInfo) {
-
-    customizeInfo.classList.remove('d-none');
-
-}
-
-// Open Google Maps
-const mapUrl =
-    `https://www.google.com/maps/search/${foodName}+restaurants+near+me`;
-
-window.open(mapUrl, '_blank');
-
-
+        // Hide all customize info
+        document.querySelectorAll('.customize-info')
+        .forEach(info => {
+            info.classList.add('d-none');
         });
 
+        // Show customize info only for clicked food
+        const customizeInfo =
+            this.querySelector('.customize-info');
+
+        if (customizeInfo) {
+            customizeInfo.classList.remove('d-none');
+        }
+
+        // Get user's current location
+        if (navigator.geolocation) {
+
+            navigator.geolocation.getCurrentPosition(
+
+                function(position) {
+
+                    const lat =
+                        position.coords.latitude;
+
+                    const lng =
+                        position.coords.longitude;
+
+                    const mapUrl =
+                        `https://www.google.com/maps/search/${encodeURIComponent(foodName)}+restaurant/@${lat},${lng},15z`;
+
+                    window.open(
+                        mapUrl,
+                        '_blank'
+                    );
+
+                },
+
+                function(error) {
+
+                    alert(
+                        "Please allow location access to find nearby restaurants."
+                    );
+
+                }
+
+            );
+
+        } else {
+
+            alert(
+                "Geolocation is not supported by this browser."
+            );
+
+        }
+
     });
+
+});
 
     loadReviews();
 
