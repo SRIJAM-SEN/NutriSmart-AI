@@ -15,7 +15,13 @@ from recommender_core import (
 app = Flask(__name__)
 
 # ----------------- CONFIG -----------------
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
+
+DATA_PATH_RECOMMENDER = BASE_DIR / "food_recommendation.csv"
+DATA_PATH_MEAL = BASE_DIR / "7_Days_Meal_Generator.csv"
+'''
 # 🔹 Food recommendation CSV
 DATA_PATH_RECOMMENDER = r"C:/Users/srijam/OneDrive/Desktop/Final Year Project/food_recommendation.csv"
 
@@ -23,7 +29,7 @@ DATA_PATH_RECOMMENDER = r"C:/Users/srijam/OneDrive/Desktop/Final Year Project/fo
 DATA_PATH_MEAL = Path(
     r"C:/Users/srijam/OneDrive/Desktop/Final Year Project/7_Days_Meal_Generator.csv"
 )
-
+'''
 # 🔹 Feedback file
 FEEDBACK_FILE = "feedbacks.csv"
 
